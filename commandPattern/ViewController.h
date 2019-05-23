@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, kCommandPatternButtonType) {
+    kCommandPatternButtonTypeAddBtn,
+    kCommandPatternButtonTypeDelBtn,
+    kCommandPatternButtonTypeRolBtn,
+};
+
 @interface ViewController : UIViewController
 
 

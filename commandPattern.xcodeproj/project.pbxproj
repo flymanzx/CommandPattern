@@ -15,6 +15,10 @@
 		5BB632E52296DB8000CCE431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB632E42296DB8000CCE431 /* main.m */; };
 		5BB632EF2296DB8000CCE431 /* commandPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB632EE2296DB8000CCE431 /* commandPatternTests.m */; };
 		5BB632FA2296DB8000CCE431 /* commandPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB632F92296DB8000CCE431 /* commandPatternUITests.m */; };
+		5BB633092296DDFD00CCE431 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB633082296DDFD00CCE431 /* Receiver.m */; };
+		5BB6330D2296DEDB00CCE431 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB6330C2296DEDB00CCE431 /* Invoker.m */; };
+		5BB633112296E0C700CCE431 /* LighterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB633102296E0C700CCE431 /* LighterCommand.m */; };
+		5BB633142296E0EC00CCE431 /* DarkerCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB633132296E0EC00CCE431 /* DarkerCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		5BB632F52296DB8000CCE431 /* commandPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = commandPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB632F92296DB8000CCE431 /* commandPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = commandPatternUITests.m; sourceTree = "<group>"; };
 		5BB632FB2296DB8000CCE431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB633072296DDFD00CCE431 /* Receiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		5BB633082296DDFD00CCE431 /* Receiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		5BB6330A2296DE8300CCE431 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5BB6330B2296DEDB00CCE431 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		5BB6330C2296DEDB00CCE431 /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		5BB6330E2296E00300CCE431 /* InvokerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvokerProtocol.h; sourceTree = "<group>"; };
+		5BB6330F2296E0C700CCE431 /* LighterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LighterCommand.h; sourceTree = "<group>"; };
+		5BB633102296E0C700CCE431 /* LighterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LighterCommand.m; sourceTree = "<group>"; };
+		5BB633122296E0EC00CCE431 /* DarkerCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkerCommand.h; sourceTree = "<group>"; };
+		5BB633132296E0EC00CCE431 /* DarkerCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkerCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,16 @@
 				5BB632D62296DB7D00CCE431 /* AppDelegate.m */,
 				5BB632D82296DB7D00CCE431 /* ViewController.h */,
 				5BB632D92296DB7D00CCE431 /* ViewController.m */,
+				5BB633072296DDFD00CCE431 /* Receiver.h */,
+				5BB633082296DDFD00CCE431 /* Receiver.m */,
+				5BB6330E2296E00300CCE431 /* InvokerProtocol.h */,
+				5BB6330B2296DEDB00CCE431 /* Invoker.h */,
+				5BB6330C2296DEDB00CCE431 /* Invoker.m */,
+				5BB6330F2296E0C700CCE431 /* LighterCommand.h */,
+				5BB633102296E0C700CCE431 /* LighterCommand.m */,
+				5BB633122296E0EC00CCE431 /* DarkerCommand.h */,
+				5BB633132296E0EC00CCE431 /* DarkerCommand.m */,
+				5BB6330A2296DE8300CCE431 /* PrefixHeader.pch */,
 				5BB632DB2296DB7D00CCE431 /* Main.storyboard */,
 				5BB632DE2296DB8000CCE431 /* Assets.xcassets */,
 				5BB632E02296DB8000CCE431 /* LaunchScreen.storyboard */,
@@ -264,7 +288,11 @@
 			files = (
 				5BB632DA2296DB7D00CCE431 /* ViewController.m in Sources */,
 				5BB632E52296DB8000CCE431 /* main.m in Sources */,
+				5BB6330D2296DEDB00CCE431 /* Invoker.m in Sources */,
+				5BB633112296E0C700CCE431 /* LighterCommand.m in Sources */,
+				5BB633092296DDFD00CCE431 /* Receiver.m in Sources */,
 				5BB632D72296DB7D00CCE431 /* AppDelegate.m in Sources */,
+				5BB633142296E0EC00CCE431 /* DarkerCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +464,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/commandPattern/PrefixHeader.pch";
 				INFOPLIST_FILE = commandPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +482,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/commandPattern/PrefixHeader.pch";
 				INFOPLIST_FILE = commandPattern/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
